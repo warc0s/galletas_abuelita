@@ -35,11 +35,11 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/control-temperatura-horno.git
+   git clone https://github.com/warc0s/galletas_abuelita.git
    ```
 2. **Ingresar al Directorio:**
    ```bash
-   cd control-temperatura-horno
+   cd galletas_abuelita
    ```
 
 ## 🖥️ Uso
