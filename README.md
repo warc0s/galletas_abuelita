@@ -18,10 +18,8 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
 ## 🎞️ Funciones de Pertenencia
 
 ![Índice Cromático](https://github.com/warc0s/galletas_abuelita/blob/main/images/Indice_Cromatico.png?raw=true)  
-*Índice Cromático*
 
 ![Temperatura del Horno](https://github.com/warc0s/galletas_abuelita/blob/main/images/Temperatura_Horno.png?raw=true)  
-*Temperatura del Horno*
 
 ## 🎨 Índices y Temperaturas
 
