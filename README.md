@@ -51,13 +51,11 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
 ## 🖥️ Uso
 
 1. **Abrir CLIPS:**
-   ```bash
-   clips
-   ```
+
 2. **Cargar la Base de Conocimientos y de Hechos:**
    ```clips
    (load "bc_galletas.clp")
-   (load bh_galletas.clp")
+   (load "bh_galletas.clp")
    ```
 3. **Cargar el Sistema:**
    ```clips
@@ -79,6 +77,7 @@ A continuación, se muestra una captura de cómo debería verse la interfaz desp
 ## 📚 Recursos
 
 - [Documentación de CLIPS](https://www.clipsrules.net/Documentation.html)
+  
 ## 📝 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
