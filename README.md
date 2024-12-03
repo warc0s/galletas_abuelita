@@ -54,16 +54,25 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
    ```bash
    clips
    ```
-2. **Cargar la Base de Conocimientos:**
+2. **Cargar la Base de Conocimientos y de Hechos:**
    ```clips
-   (load "base-conocimientos.clp")
+   (load "bc_galletas.clp")
+   (load bh_galletas.clp")
    ```
-3. **Ejecutar el Sistema:**
+3. **Cargar el Sistema:**
    ```clips
+   (reset)
    (run)
+   (facts)
    ```
-4. **Ingresar el Índice Cromático:**
-   - Por ejemplo, `6` para obtener la temperatura recomendada.
+4. **Ejecutarlo:**
+   ```clips
+(maximum-defuzzify 4)
+(moment-defuzzify 4)
+   ```
+5. **Verificar los Resultados:**
+A continuación, se muestra una captura de cómo debería verse la interfaz después de ejecutar los comandos:
+![Índice Cromático](https://github.com/warc0s/galletas_abuelita/blob/main/images/foto4.png?raw=true)  
 
 ## 📚 Recursos
 
