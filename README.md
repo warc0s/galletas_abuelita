@@ -66,10 +66,12 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
    (facts)
    ```
 4. **Ejecutarlo:**
-   ```clips
+
+```clips
 (maximum-defuzzify 4)
 (moment-defuzzify 4)
    ```
+
 5. **Verificar los Resultados:**
 A continuación, se muestra una captura de cómo debería verse la interfaz después de ejecutar los comandos:
 ![Índice Cromático](https://github.com/warc0s/galletas_abuelita/blob/main/images/foto4.png?raw=true)  
