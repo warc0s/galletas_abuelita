@@ -67,7 +67,7 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
 
 ## 📚 Recursos
 
-- [Documentación de CLIPS](http://www.clipsrules.net/documentation.html)
+- [Documentación de CLIPS](https://www.clipsrules.net/Documentation.html)
 ## 📝 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
