@@ -8,9 +8,9 @@
 )
 
 (deftemplate indice_cromatico
- 0 7
+ 0 8
  (
-    (casi_crudas (4 1) (6 0.5) (0 7))
+    (casi_crudas (4 1) (6 0.5) (7 0))
     (medio_hechas (3 0) (5 1) (6 1) (8 0))
     (doradas (5 0) (7 1))
  )
@@ -19,15 +19,15 @@
 (defrule regla_1
  (indice_cromatico casi_crudas)
  =>
- (assert (media))
+ (assert (temperatura media))
 )
 (defrule regla_2
  (indice_cromatico medio_hechas)
  =>
- (assert (alta))
+ (assert (temperatura alta))
 )
 (defrule regla_3
  (indice_cromatico doradas)
  =>
- (assert (alta))
+ (assert (temperatura baja))
 )
