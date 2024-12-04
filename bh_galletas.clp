@@ -1,3 +1,3 @@
 (deffacts hechos
-  (indice_cromatico (6 0) (6 1) (6 0))
+  (indice_cromatico (6 0) (6 1) (6 0) (7 1))
 )

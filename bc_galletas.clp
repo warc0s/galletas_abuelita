@@ -13,6 +13,7 @@
     (casi_crudas (4 1) (6 0.5) (7 0))
     (medio_hechas (3 0) (5 1) (6 1) (8 0))
     (doradas (5 0) (7 1))
+    (bien_hechas (6 0) (7 1) (8 1))
  )
 )
 
@@ -30,4 +31,9 @@
  (indice_cromatico doradas)
  =>
  (assert (temperatura baja))
+)
+(defrule regla_4
+ (indice_cromatico bien_hechas)
+ =>
+ (assert (temperatura alta))
 )
