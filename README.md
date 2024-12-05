@@ -1,4 +1,4 @@
-# 🍪 Control Automático de Temperatura para Horneado de Galletas
+# 🍪 Trabajo: Control Automático de Temperatura para Horneado de Galletas
 
 By: [Marcos](https://github.com/warc0s) & [Tristán](https://github.com/tristandelrosal)
 
@@ -6,7 +6,7 @@ By: [Marcos](https://github.com/warc0s) & [Tristán](https://github.com/tristand
 
 ## 📝 Descripción
 
-Este proyecto implementa un **sistema de control automático** para ajustar la temperatura del horno que utiliza la abuela María para hornear sus deliciosas galletas caseras. Utiliza **lógica difusa** para evaluar el índice cromático de las galletas y determinar la temperatura óptima, asegurando un dorado perfecto.
+Este proyecto implementa un **sistema de control automático** para ajustar la temperatura del horno que utiliza la abuelita María para hornear sus deliciosas galletas caseras. Utiliza **lógica difusa** para evaluar el índice cromático de las galletas y determinar la temperatura óptima, asegurando un dorado perfecto.
 
 ## 🚀 Características
 
@@ -27,6 +27,7 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
 - **Un poco crudas:** (1/4, 0.5/6, 0/7)
 - **Medio hechas:** (0/3, 1/5, 1/6, 0/8)
 - **Doraditas:** (0/5, 1/7)
+- (extra) **Bien hechas:** (0/6, 1/7, 1/8)
 
 ### 🌡️ Temperatura del Horno (°C)
 - **Baja:** (0/150, 1/160, 1/180, 0/190)
@@ -73,6 +74,10 @@ Este proyecto implementa un **sistema de control automático** para ajustar la t
 5. **Verificar los Resultados:**
 A continuación, se muestra una captura de cómo debería verse la interfaz después de ejecutar los comandos:
 ![Índice Cromático](https://github.com/warc0s/galletas_abuelita/blob/main/images/foto4.png?raw=true)  
+
+6. **Extra: Nueva Regla - bien_hechas**
+Con el fin de complementar esta tarea, hemos añadido una nueva regla, "bien_hechas". En la siguiente captura se muestra en ejecución:
+![Regla Bien Hechas](https://github.com/warc0s/galletas_abuelita/blob/main/images/foto5.png?raw=true)  
 
 ## 📚 Recursos
 
